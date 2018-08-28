@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Time Cards",
+	"description": "This is a repository of time cards APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/time-cards.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://time-cards.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Square",
+			"x-api-slug": "square",
+			"description": "Square helps millions of sellers run their business- from secure credit card processing to point of sale solutions. Get paid faster with Square and sign up today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg",
+			"humanURL": "http://square.com",
+			"baseURL": "https://connect.squareup.com//",
+			"tags": "Time Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time-cards/master/_listings/square/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Time Cards",
+	"include": [
+		{
+			"name": "Square",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time-cards/master/_listings/square/apis.yaml"
+		}
+	]
+}
